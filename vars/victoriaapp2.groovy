@@ -17,7 +17,7 @@ pipeline {
            echo "jenkins is funs"
            }
            }
-           stage('demo-newapp'){
+           stage('demo-newapps'){
            steps{
                 sh 'cat/etc/passwd'
                 echo "jenkins was an esay module"
