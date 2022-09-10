@@ -20,7 +20,7 @@ pipeline {
            stage('demo-newapps'){
            steps{
                 sh 'cat/etc/passwd'
-                echo "jenkins was an esay module"
+                echo "class was an esay module"
            }
            }
            stage("Checkout Code") {
