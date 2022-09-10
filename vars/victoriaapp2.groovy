@@ -19,7 +19,7 @@ pipeline {
            }
            stage('demo-newapps'){
            steps{
-                sh 'cat/etc/passwd'
+                sh 'cat /etc/passwd'
                 echo "class was an esay module"
            }
            }
